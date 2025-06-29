@@ -1,0 +1,25 @@
+{
+  "name": "blog-messages-nodejs-rcs-bedtime-story-generator",
+  "version": "1.0.0",
+  "description": "Bedtime story generator using Vonage Messages API and Google Gemini via RCS.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@vonage/auth": "^1.11.0",
+    "@vonage/jwt": "^1.11.0",
+    "@vonage/messages": "^1.15.0",
+    "@vonage/server-sdk": "^3.16.0",
+    "debug": "^4.3.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
